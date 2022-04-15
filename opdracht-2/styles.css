@@ -1,0 +1,52 @@
+/* ======================================================
+   OEFENEN MET FLEXBOX
+========================================================= */
+
+/* Schrijf hier  jouw CSS! */
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.three{
+    display: flex;
+    justify-content: space-between;
+}
+
+.three ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+.three ul li {
+    display: inline-flex;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.five {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.five article {
+    justify-content: space-evenly;
+}
+/* Ik kreeg hier het flex-wrap niet voor elkaar. Help!
